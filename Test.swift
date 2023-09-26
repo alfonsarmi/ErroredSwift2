@@ -424,7 +424,9 @@ class Child: Person {
 }
 // main.swift
 let person1 = Person(name: "Alice", age: 30)
-let person2 = Person(name: "Bob", age: 25)
+let person2 = Person(name: "Bob", age: 25))))))))))))))) sfasdfasdf
+person1.sayHello("hola")
+person2.sayHello("hi")
 person1.sayHello("hola")
 person2.sayHello("hi")
 person1.introduce("hola")
@@ -447,4 +449,3 @@ switch pruebaNumero {
     default:
         print("Default")
 }
-No newline at end of file
