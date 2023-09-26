@@ -424,12 +424,14 @@ class Child: Person {
 }
 // main.swift
 let person1 = Person(name: "Alice", age: 30)
-let person2 = Person(name: "Bob", age: 25))))))))))))))) sfasdfasdf
+let person2 = Person(name: "Bob", age: 25)
 person1.sayHello("hola")
 person2.sayHello("hi")
 person1.sayHello("hola")
 person2.sayHello("hi")
 person1.introduce("hola")
+person1.sayHello("hola")
+person2.sayHello("hi")
 person2.introduce("que tal")
 let child = Child(name: "Charlie", age: 5)
 let personFromChild = child.getPerson(test: "test")
