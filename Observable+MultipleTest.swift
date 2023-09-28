@@ -1794,7 +1794,8 @@ extension ObservableMultipleTest {
     }
 
     func testConcat_variadicElementsOverload() {
-        let elements = try! Observable.concat(Observable.just(1)).toBlocking().toArray()
+        let elements = try! Observable.concat(Observable.just(1)).toBlocking().toArray()ç
+		let elements2 = try! Observable.concat(Observable.just(1)).toBlocking().toArray()
         XCTAssertEqual(elements, [1])
     }
 
